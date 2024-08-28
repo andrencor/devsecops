@@ -2,7 +2,7 @@
 import unittest
 from flask import Flask
 from flask_restful import Api
-from tests import app, Account, BankApi
+from main import app, Account, BankApi
 
 class BankApiTestCase(unittest.TestCase):
     def setUp(self):
