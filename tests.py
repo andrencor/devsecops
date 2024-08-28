@@ -27,5 +27,5 @@ class BankApiTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json, {'saldo': 133.5})
 
-if __name == '__main':
+if __name__ == '__main__':
     unittest.main()
