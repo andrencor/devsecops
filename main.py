@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # curl http://localhost:3001/1234-5
 # curl -X PATCH http://localhost:3001/1234-5/10.0
 # curl -X PATCH http://localhost:3001/1234-5/123.5
